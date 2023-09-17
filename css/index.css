@@ -1,0 +1,141 @@
+* {
+    font-size: 17px;
+}
+.navBarPart img {
+    width: 37px;
+    height: 37px;
+}
+.container {
+    display: flex;
+} 
+.rightSide , .leftSide {
+    width: 50%;
+}
+.leftSide img {
+    width: 100%;
+    height: 97vh;
+    object-fit: cover;
+}
+.navBarPart span {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.headerText {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 129px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.headerSubtext {
+    font-size: 17px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 15px;
+}
+form {
+   margin-left: 179px;
+   margin-top: 40px;
+}
+input[type='text'] , input[type='password'] {
+    width: 70%;
+    height: 30px;
+    font-size: 14px;
+    margin: 9px 0 12px 0;
+}
+input[type='text'] {
+    margin-bottom: 23px;
+}
+label:nth-child(1) , .passWord {
+    font-weight: 600;
+}
+input:focus {
+    outline:none;
+}
+.main-part {
+    width: 100%;
+}
+form a {
+    margin-left: 150px;
+    color: #000;
+}
+button {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 56%;
+    height: 42px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:nth-child(even) {
+    border:1px solid #000;
+    background-color: #fff;
+    color:#000;
+}
+button img {
+    height: 20px;
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+.newUser {
+    position: absolute;
+    bottom: 36px;
+    left: 19%;
+
+}
+.leftSide {
+    position: relative;
+}
+.pro-name {
+    position: absolute;
+    bottom: 97px;
+    left: 21px;
+    font-size: 36px;
+    color: #fff;
+}
+.pro-sub {
+   position: absolute;
+    bottom: 29px;
+    left: 21px;
+    font-size: 21px;
+    color: #fff;
+}
+.profile {
+    position: absolute;
+    top: 22px;
+    right: 39px;
+    color: #fff;
+    font-size: 42px;
+}
+@media only screen and (max-width:1000px) {
+    .container {
+        display: block;
+    }
+    .rightSide , .leftSide {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+    }
+    .headerText {
+        margin-top: 47px;
+    }
+    .newUser {
+       left: 40%;
+        
+    }
+    
+}
+@media only screen and (max-width:768px) {
+    label a {
+        display: block;
+        margin-left: 0;
+        margin-top: 16px;
+}
+    }
